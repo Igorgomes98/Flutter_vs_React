@@ -19,14 +19,6 @@ class Comentarios {
     return Comentarios(
         login: json['login'], texto: json['texto'], id: json['id']);
   }
-
-  // Map<String, dynamic> toJson() {
-  // final Map<String, dynamic> data = new Map<String, dynamic>();
-  // data['login'] = this.login;
-  // data['texto'] = this.texto;
-  // data['id'] = this.id;
-  // return data;
-  // }
 }
 
 class PostList {
@@ -86,22 +78,4 @@ class Post {
         comentarios: comentarios,
         comentario: json['comentario']);
   }
-
-//  Map<String, dynamic> toJson() {
-  //  final Map<String, dynamic> data = new Map<String, dynamic>();
-  //data['urlPerfil'] = this.urlPerfil;
-  //data['loginUsuario'] = this.loginUsuario;
-  //data['horario'] = this.horario;
-  //data['urlFoto'] = this.urlFoto;
-  //data['id'] = this.id;
-  //dat/a['likeada'] = this.likeada;
-  //if (this.likers != null) {
-  //  data['likers'] = this.likers.map((v) => v.toJson()).toList();
-  // }
-  // if (this.comentarios != null) {
-  //   data['comentarios'] = this.comentarios.map((v) => v.toJson()).toList();
-  // }
-  // data['comentario'] = this.comentario;
-  // return data;
-  // }
 }
