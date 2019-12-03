@@ -9,7 +9,7 @@ import {
 } from 'react-native'
 import { ListItem } from "react-native-elements";
 import _ from "lodash";
-import { getUsers, contains } from "./api/index";
+import { getCities, contains } from "./api/index";
 
 export default class SearchApp extends Component {
   constructor(props) {
@@ -31,7 +31,7 @@ export default class SearchApp extends Component {
   makeRemoteRequest = () => {
     this.setState({ loading: true });
 
-    getUsers().then(
+    getCities().then(
       users => {
         this.setState({
           loading: false,

@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "294274826492",
+    "firebase_url": "https://bancotcc-3d4fa.firebaseio.com",
+    "project_id": "bancotcc-3d4fa",
+    "storage_bucket": "bancotcc-3d4fa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:294274826492:android:c5ec113a149619984c5779",
+        "android_client_info": {
+          "package_name": "com.example.flutter_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "294274826492-gbgkhh9u9bo5f9mvf6uelhtutehcaa75.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmEFwPzU3D5uAQu92cFvzEmaLwEOgGS_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "294274826492-gbgkhh9u9bo5f9mvf6uelhtutehcaa75.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:294274826492:android:29aebc493ae41f574c5779",
+        "android_client_info": {
+          "package_name": "com.igorgomes.reactfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "294274826492-gbgkhh9u9bo5f9mvf6uelhtutehcaa75.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmEFwPzU3D5uAQu92cFvzEmaLwEOgGS_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "294274826492-gbgkhh9u9bo5f9mvf6uelhtutehcaa75.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
